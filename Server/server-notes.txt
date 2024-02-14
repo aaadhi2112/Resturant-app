@@ -1,0 +1,10 @@
+
+
+--------------------------------------BACKEND FOR RESTURANT-------------------------------
+
+01...Create a folder Server in app
+02...Create a package.json file    - npm init -y
+03...Create a rest json services   - npm i json-server
+04...To connect different ports    - npm i cors
+05...Create a .gitignore file and add node_modules in it
+06...Create index.js 

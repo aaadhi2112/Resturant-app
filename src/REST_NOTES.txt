@@ -1,0 +1,44 @@
+
+--------------------------------------RESTURANT LISTING APP-----------------------------------
+
+
+
+01...Create a new application : npx create-react-app resturant-listing-app
+
+02...cd resturant-listing-app
+
+03...code .
+
+04...Run the application
+
+05...Clean code
+
+06...Choose a theme using bootswatch : https://bootswatch.com/ and import it into the index.js : import './bootstrap.min.css';
+
+07...Copy and paste fontawesome cdnjs into the index.html
+
+08...Copy and paste google fonts into the index.css
+
+09...Install react bootstrap : npm install react-bootstrap bootstrap
+
+10...Component Creation - 
+            Components
+                -> Header
+                    Header.js
+                    Header.css 
+
+11...Backend server creation
+
+12...API fetching -> axios
+        install axios : npm i axios
+
+13...useEfect - Hook used to perform side effects in your Components
+
+14...Path setup -> react-router-dom : npm i react-router-dom
+                -  Browser Router - Used to setup app routing
+                -  Routes         - To hold more than one Route (Used to hold multiple components)
+                -  Route          - Used to setup a component path
+
+15...useParams() - React Hook
+        - In our React app ,we need to access the perimeters of the current route in this case we use useParams hook.
+        - The react-router-dom package has this hook - let u access the perimeters of the content
